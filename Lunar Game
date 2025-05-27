@@ -1,0 +1,19 @@
+# Create folder structure
+mkdir -p LunarGames/assets/{css,js,images}
+
+# Create files
+touch LunarGames/index.html
+touch LunarGames/games.html
+touch LunarGames/about.html
+touch LunarGames/404.html
+touch LunarGames/assets/css/style.css
+touch LunarGames/assets/js/main.js
+
+# Initialize Git repo
+cd LunarGames
+git init
+git add .
+git commit -m "Initial folder structure"
+git branch -M main
+git remote add origin https://github.com/YOURUSERNAME/LunarGames.git
+git push -u origin main
